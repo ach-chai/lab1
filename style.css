@@ -1,0 +1,297 @@
+/*main homepage bg*/
+body {
+	background-image: url('img/homescreen.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cinzel', serif;
+}
+
+/*genshin banner above the site*/
+.banner {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*navigation bar, apply to all pages*/
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #00000083;
+	border-bottom: 1px solid #FFD70080;
+	font-size: 20px;
+}
+
+.navbar a {
+	font-weight: 1000;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 2px;
+	background-color: #cc9900;
+}
+
+/*page overlay, screen overlay thingy*/
+.page-overlay {
+	padding: 0;
+}
+
+.page-overlay {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1300px;
+  margin: 90px auto;
+  padding: 0 20px;
+}
+
+/*home content*/
+.content-header {
+  background-color: #d6b36a;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 2px 4px;
+  margin: -30px -40px 25px -40px;
+  border-radius: 4px 4px 0 0;
+}
+
+.content-art {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content-art img {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 3;
+  padding: 30px 40px;
+  background-color: #1f232ccc; 
+  color: #e6e6e6;
+  border: 2px solid #d6b36a;
+  border-radius: 6px;
+  text-align: justify;
+}
+
+/*homepage button*/
+.button-parent {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 10px 22px;
+  background-color: #d6b36a;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  box-shadow: 0 8px 16px 0 #00000099;
+}
+
+/*homepage table*/
+.table1 thead th {
+  background-color: #d6b36a;
+  font-weight: 700;
+  padding: 8px;
+  border-bottom: 2px solid #b9964f;
+  text-align: center;
+  font-size: 20px;
+}
+
+.table1 {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  text-align: center;
+  border: 2px solid #d6b36a;
+}
+
+.table1 td {
+  padding: 20px;
+  border: 1px solid #d6b36a;
+}
+
+.table1 a {
+  display: block;
+  text-decoration: none;
+  color: #e6e6e6;
+}
+
+.table1 img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 8px auto;
+  border-radius: 4px;
+}
+
+.table1 span {
+  font-weight: 600;
+}
+
+.table1 a:hover span {
+  color: #d6b36a;
+}
+
+/*overview section*/
+.overview {
+  flex: 1;
+}
+
+.overview-box {
+  background-color: #1f232c;
+  border: 2px solid #d6b36a;
+  border-radius: 6px;
+  padding: 10px 10px 6px;
+  color: #e6e6e6;
+}
+
+.overview-box h4 {
+  margin-bottom: 0 0 10px;
+  border-bottom: 1px solid #d6b36a;
+  padding-bottom: 6px;
+  color: #f0d98c;
+}
+
+.overview-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.overview-box li {
+  margin: 5px 0;
+}
+
+.overview-box a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.overview-box a:hover {
+  color: #d6b36a;
+}
+
+/*roster tables*/
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #f0d98c;
+  font-size: 20px;
+  border-bottom: 1px solid #d6b36a;
+  padding-bottom: 5px;
+}
+
+.roster-table tbody tr:nth-child(odd) {
+  background-color: #E0E0E01A;
+}
+
+.roster-table tbody tr:nth-child(even) {
+  background-color: #2B2B2B8C;
+}
+
+.table-scroll {
+  border: 2px solid #d6b36a;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.roster-table thead th {
+  background-color: #d6b36a;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.roster-table td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.roster-table img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+
+.roster-table tbody tr:hover {
+  background-color: #F0D98C26;
+}
+
+.roster-table th:first-child,
+.roster-table td:first-child {
+  border-right: 2px solid #d6b36a;
+}
+
+/*stats page*/
+.blog-section {
+  margin-bottom: 20px;
+}
+
+.blog-section h5 {
+  font-size: 20px;
+  color: #f0d98c;
+  margin-bottom: 0;
+}
+
+.blog-section img {
+  width: auto;
+  max-width: 800px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 8px;
+  border: 2px solid #d6b36a;
+}
+
+.blog-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #e6e6e6;
+  margin-top: 10px;
+}
